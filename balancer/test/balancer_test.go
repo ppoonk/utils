@@ -4,7 +4,8 @@ import (
 	"sync"
 	"sync/atomic"
 	"testing"
-	"utils/balancer"
+
+	"github.com/ppoonk/utils/balancer"
 )
 
 func TestSmoothWeightedRoundRobin(t *testing.T) {

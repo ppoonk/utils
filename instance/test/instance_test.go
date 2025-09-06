@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"sync"
 	"testing"
-	"utils/instance"
+
+	"github.com/ppoonk/utils/instance"
 )
 
 // clear && go test -v instance/test/instance_test.go
